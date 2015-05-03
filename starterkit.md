@@ -47,7 +47,8 @@ New framework implements new paradigms are needed. Key properties of this type o
 
 ## Storm
 
-> Apache Storm is a free and open source distributed real time computation system. Storm is simple, can be used with any programming language. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.
+> Apache Storm is a free and open source distributed real time computation system. 
+> Storm is simple, can be used with any programming language. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.
 
 Originated at Backtype, acquired by Twitter in 2011. Storm become Open Source late 2011 and was part of Apache Incubator late 2013. Today Storm is top level Apache project.
 
