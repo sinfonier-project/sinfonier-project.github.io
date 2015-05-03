@@ -43,3 +43,23 @@ New framework implements new paradigms are needed. Key properties of this type o
 5. **Fault-tolerant**: If there are faults during execution of your computation, system will reassign tasks as necessary. System should make sure that a computation must run forever (or until you kill the computation).
 
 6. **Programming language agnostic**: Robust and scalable realtime processing shouldn't be limited to a single platform. 
+7. 
+## Storm
+
+> Apache Storm is a free and open source distributed real time computation system. Storm is simple, can be used with any programming language. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.
+
+Originated at Backtype, acquired by Twitter in 2011. Storm become Open Source late 2011 and was part of Apache Incubator late 2013. Today Storm is top level Apache project.
+
+<image>
+
+Storm is a platform for perform analysis on streams of data (continuous data flows) as they receive or collect, enabling information processing as it happens.
+
+Storm has many use cases: real time analytics, online machine learning, continuous computation, distributed RPC, ETL, and more. Storm is able to integrates with the queueing and database technologies you already use is your systems.
+
+Currently the trend indicates the potential of this technology in the Real Time processing paradigm.
+
+<image>
+
+### Storm main concepts
+
+Storms use Stream concept, seen a stream as an unbounded sequence of tuples. Every stream has an “id”. Stream is defined with a schema that names the fields in the tuple. Tuples values must be serializable.
