@@ -20,7 +20,7 @@ MapReduce, Hadoop, and related technologies have made it possible to store and p
 
 In a nutshell these are the main differences between Hadoop and Storm:
 
-| Hadoop                | Storm         |
+| **Hadoop**                | **Storm**         |
 | :---------------------: |:-------------:| 
 | Large but finite jobs | Infinite computations called Topologies |
 | Processes a lot of data at once | Process Infinite streams of data one tuple at a time  |
