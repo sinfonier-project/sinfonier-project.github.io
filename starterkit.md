@@ -43,7 +43,8 @@ New framework implements new paradigms are needed. Key properties of this type o
 5. **Fault-tolerant**: If there are faults during execution of your computation, system will reassign tasks as necessary. System should make sure that a computation must run forever (or until you kill the computation).
 
 6. **Programming language agnostic**: Robust and scalable realtime processing shouldn't be limited to a single platform. 
-7. 
+
+
 ## Storm
 
 > Apache Storm is a free and open source distributed real time computation system. Storm is simple, can be used with any programming language. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.
